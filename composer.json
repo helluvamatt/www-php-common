@@ -1,20 +1,21 @@
 {
 	"autoload" : {
 		"psr-4" : {
-			"" : "src",
+			"" : "src"
 		}
 	},
-	"authors": [
-        {
-            "name": "Matt Schneeberger",
-            "email": "matt@schneenet.com",
-            "homepage": "http://www.schneenet.com",
-            "role": "Developer"
-        }
+	"authors":
+	[
+	    {
+			"name" : "Matt Schneeberger",
+			"email" : "matt@schneenet.com",
+			"homepage" : "http://www.schneenet.com",
+			"role" : "Developer"
+		}
 	],
 	"name" : "schneenet/www-php-common",
 	"license" : "GPL-2.0+",
 	"require" : {
-		"php" : ">=5.5",
+		"php" : ">=5.5"
 	}
 }
