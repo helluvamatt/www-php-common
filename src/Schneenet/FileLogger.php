@@ -8,6 +8,7 @@ class FileLogger
 	public function __construct($file)
 	{
 		$this->_handle = fopen($file, 'a');
+		if ($this->_handle === FALSE) throw new \RuntimeException("Failed to open log file: $file");
 	}
 	
 	public function __destruct()
